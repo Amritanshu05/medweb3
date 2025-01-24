@@ -1,0 +1,11 @@
+# Ignore target directory
+/medweb3/target/
+
+# Ignore RocksDB files
+/test-ledger/rocksdb/
+*.log
+*.snapshot
+*.d
+
+# Ignore unnecessary files in test-ledger
+/test-ledger/snapshot/
