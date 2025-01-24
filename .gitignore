@@ -4,8 +4,7 @@
 # Ignore RocksDB files
 /test-ledger/rocksdb/
 *.log
-*.snapshot
 *.d
 
-# Ignore unnecessary files in test-ledger
+# Ignore snapshot and hardlink files
 /test-ledger/snapshot/
